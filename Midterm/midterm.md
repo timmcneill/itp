@@ -1,0 +1,7 @@
+# Phase 1: Sketch Your Visual Object
+I looked at the [reference page](https://p5js.org/reference/) on p5.js first to see what kind of shapes could be made. I decided to make a simple sailboat. It uses a semicircle for the bottom half, which I figured I would be able to do with the [arc()](https://p5js.org/reference/p5/arc/) function. It also uses a rectangle for the mast and a triangle for the sail.
+# Phase 2: Translate to P5.js sketch
+I only used 3 shapes so it was pretty simple. The only somewhat difficult thing was figuring out how to use the arc() function. I had to look it up on the reference page: [https://p5js.org/reference/p5/arc/]. It uses radians to tell how much of the arc to draw and you can use "PI" as a value to represent pi radians which is half a circle. For my object, the whole bottom half is half a circle. The sail uses the triangle() function which just needs three coordinates. The mast uses rect() which has a position, and then width and height. It wasn't hard to copy the drawing because the whole bottom half is one shape and then the mast and the sail each have their own quadrant on the graph paper.
+# Phase 3: Function
+For this I just copied the code from the last phase for my shape and followed the instructions to create the function. I was able to test different positions and sizes and see how push() and pop() lets you use the function twice.
+# Phase 4: Tiling
